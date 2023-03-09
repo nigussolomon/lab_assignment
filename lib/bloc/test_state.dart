@@ -14,9 +14,7 @@ class TestLoadingState extends TestState {
 
 class TestSuccessState extends TestState {
   int counter_val;
-
   TestSuccessState(this.counter_val);
-
   @override
   List<Object> get props => [];
 }

@@ -24,7 +24,7 @@ class _NEXTState extends State<NEXT> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "THE NUMBER IS ${state.counter_val}",
+                  "THE NUMBER IS ${state.counterVal}",
                   textAlign: TextAlign.center,
                 ),
               ],

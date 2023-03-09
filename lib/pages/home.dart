@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   'You have pushed the button this many times:',
                 ),
                 Text(
-                  '${state.counter_val}',
+                  '${state.counterVal}',
                   style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 ElevatedButton(
